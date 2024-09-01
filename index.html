@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    nav {
+      background-color: rgb(34, 34, 34);
+      border: 1px solid black;
+      width: 100%;
+      height: 60px;
+
+    }
+
+    .right-side {
+      display: inline-block;
+    }
+
+    ul,
+    li {
+      position: relative;
+      top: 10px;
+      display: inline;
+      text-decoration: none;
+      color: white;
+      margin-left: 10px;
+    }
+
+    .main-background {
+      width: 100%;
+      height: 400px;
+      background-color: rgb(236, 230, 230);
+      position: relative;
+    }
+
+    .left-side-main {
+      position: absolute;
+      left: 800px;
+      top: 120px;
+
+
+    }
+
+    .right-side-main {
+      border: 1px solid black;
+      position: relative;
+      border: 10px;
+      width: 200px;
+    }
+
+    p {
+      display: inline-block;
+      width: 500px;
+      margin-top: 20px;
+    }
+
+    .img-background2 {
+      position: absolute;
+      top: 150px;
+      left: 420px;
+      width: 200px;
+      height: 200px;
+      z-index: -10px;
+    }
+
+    .img-background1 {
+      position: absolute;
+      top: 50px;
+      left: 300px;
+      width: 200px;
+      height: 200px;
+
+    }
+
+    footer {
+      background-color: rgb(34, 34, 34);
+      width: 100%;
+      height: 60px;
+    }
+
+    .square2,
+    .square3,
+    .square4,
+    .square5,
+    .square1 {
+      width: 90px;
+      height: 90px;
+      margin: 10px;
+      position: relative;
+      margin: 10px;
+      box-shadow: -3px 4px 0px black;
+      border-radius: 8px;
+    }
+
+    .square1 {
+
+      background-color: aqua;
+      top: 100px;
+      left: 100px;
+    }
+
+    .square2 {
+      background-color: blueviolet;
+      top: 110px;
+      left: 200px;
+
+    }
+
+    .square3 {
+      background-color: rgb(210, 30, 156);
+      top: 120px;
+      left: 300px;
+    }
+
+    .square4 {
+      background-color: chartreuse;
+      bottom: 100px;
+      left: 450px;
+
+    }
+
+    .square5 {
+      background-color: bisque;
+      bottom: 320px;
+      left: 580px;
+    }
+
+    .groups-squares {
+      display: inline-block;
+    }
+
+    .group-squares {
+      width: 650px;
+      display: inline-block;
+
+    }
+
+    .p-footer {
+      color: white;
+      position: relative;
+      left: 600px;
+      bottom: 5px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="right-side">
+      <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="main-background">
+
+    <div class="left-side-main">
+      <h1 class="h1-left-side">Lorem ipsum</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, recusandae officia. Perferendis
+        consectetur
+        ratione inventore odit ipsam rem accusantium quis facilis aut, optio eveniet, repellat accusamus unde aliquam
+        magni blanditiis.</p>
+    </div>
+    <div class="right-side-main">
+
+      <img class="img-background1"
+        src="https://up6.cc/wd/wp-content/uploads/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%8A%D9%81%D9%88%D9%86-%D8%A8%D8%AC%D9%88%D8%AF%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%8A-1.jpeg"
+        alt="">
+      <img class="img-background2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgFuJ7IfSb0gOlQrVWlPLuSuECu5sq6MWfQP3GACzjollO8ydOVAjy9fKuPPjH3dIYXlk&usqp=CAU"
+        alt="">
+    </div>
+  </div>
+
+  <div class="groups-squares">
+    <div class="group-squares">
+
+      <div class="square1"></div>
+      <div class="square2"></div>
+      <div class="square3"></div>
+      <div class="square4"></div>
+      <div class="square5"></div>
+
+
+    </div>
+    <div class="group-squares">
+
+      <div class="square1"></div>
+      <div class="square2"></div>
+      <div class="square3"></div>
+      <div class="square4"></div>
+      <div class="square5"></div>
+
+
+    </div>
+
+  </div>
+
+
+  <footer>
+
+    <div class="center-side">
+      <p class="p-footer">Name-Email</p>
+
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
